@@ -12,10 +12,11 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Base44 App" },
-      { name: "description", content: "A full-stack Base44 app built with TanStack Start." },
+      { title: "mcp_github_fixture" },
+      { name: "description", content: "Minimal task fixture app." },
     ],
     links: [
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;700&display=swap" },
       { rel: "stylesheet", href: appCss },
       { rel: "icon", type: "image/svg+xml", href: "https://base44.com/logo_v2.svg" },
     ],
